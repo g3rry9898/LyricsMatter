@@ -1,0 +1,36 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header img {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.header h1 {
+  color: white;
+}
+
+.welcome {
+  text-align: center;
+  color: white;
+  margin-top: 20%;
+}
+
+.welcome button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
